@@ -128,13 +128,12 @@ def isChar_of_res(ch, i):
 
 
 def isReserved(word):
+    for i in reserved:
+        if i==word: return True
     for i in range(len(word)):
         if isChar_of_res(word[i], i):
             continue
-        else:
-            return False
-    return True
-
+    return False
 
 def check_word(word):
     if (isReserved(word)):
