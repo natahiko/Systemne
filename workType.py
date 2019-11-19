@@ -4,7 +4,6 @@ types = ['помилковий', 'слово', 'ціле число', 'дійс�
 reserved = ['shkarovska', 'shka', 'vas', 'rov', 'oka']
 reserved2 = ['sin', 'cos', 'tg', 'ctg', 'break', 'continue', 'do', 'for']
 
-
 def isLetter(char):
     char = char.lower()
     letters = ['s', 'h', 'k', 'a', 'r', 'o', 'v', 's']
@@ -12,13 +11,11 @@ def isLetter(char):
         if char == i: return True
     return False
 
-
 def isSeparator(char):
     separators = [' ', '(', ')', '"', '!', '?', '\n']
     for i in separators:
         if char == i: return True
     return False
-
 
 def split_by_separators(text):
     words = []
