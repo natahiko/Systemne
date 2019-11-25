@@ -1,0 +1,10 @@
+C=(B*6↑7-C+7)*V↑4↑4
+CB67↑*C-7+V4↑4↑*=
+B=M[8,i-4,c(a),K*4]↑6
+BM8i4-ca3FnK4*5]6↑=
+A=2+M[1,j,j+3]↑5
+A2M1jj3+4]5↑+=
+B=M[4+y,i*4,s(x),c/5]↑2
+BM4y+i4*sx2Fnc5/5]2↑=
+A=c(f(x,y,M[i,j]))
+AcfxyMij3]4Fn2Fn=
