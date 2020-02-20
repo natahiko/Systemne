@@ -27,6 +27,10 @@ public class Main {
         tr2.start();
         tr3.start();
         tr4.start();
+        tr1.join();
+        tr2.join();
+        tr3.join();
+        tr4.join();
         long end2 = System.currentTimeMillis();
 
         System.out.println("Quick reault: ");
